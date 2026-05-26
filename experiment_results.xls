@@ -1,0 +1,81 @@
+model,k,param,train,cv
+MLP,5,"hidden=(64,)_act=relu",1.0,0.746
+MLP,5,"hidden=(64,)_act=tanh",1.0,0.771
+MLP,5,"hidden=(32, 16)_act=relu",1.0,0.696
+MLP,5,"hidden=(32, 16)_act=tanh",1.0,0.636
+MLP,10,"hidden=(64,)_act=relu",1.0,0.768
+MLP,10,"hidden=(64,)_act=tanh",1.0,0.736
+MLP,10,"hidden=(32, 16)_act=relu",1.0,0.818
+MLP,10,"hidden=(32, 16)_act=tanh",1.0,0.711
+MLP,15,"hidden=(64,)_act=relu",1.0,0.739
+MLP,15,"hidden=(64,)_act=tanh",1.0,0.764
+MLP,15,"hidden=(32, 16)_act=relu",1.0,0.793
+MLP,15,"hidden=(32, 16)_act=tanh",1.0,0.764
+MLP,20,"hidden=(64,)_act=relu",1.0,0.714
+MLP,20,"hidden=(64,)_act=tanh",1.0,0.764
+MLP,20,"hidden=(32, 16)_act=relu",1.0,0.714
+MLP,20,"hidden=(32, 16)_act=tanh",1.0,0.764
+MLP,25,"hidden=(64,)_act=relu",1.0,0.793
+MLP,25,"hidden=(64,)_act=tanh",1.0,0.764
+MLP,25,"hidden=(32, 16)_act=relu",1.0,0.796
+MLP,25,"hidden=(32, 16)_act=tanh",1.0,0.739
+MLP,30,"hidden=(64,)_act=relu",1.0,0.764
+MLP,30,"hidden=(64,)_act=tanh",1.0,0.736
+MLP,30,"hidden=(32, 16)_act=relu",1.0,0.793
+MLP,30,"hidden=(32, 16)_act=tanh",1.0,0.739
+MLP,40,"hidden=(64,)_act=relu",1.0,0.768
+MLP,40,"hidden=(64,)_act=tanh",1.0,0.714
+MLP,40,"hidden=(32, 16)_act=relu",1.0,0.743
+MLP,40,"hidden=(32, 16)_act=tanh",1.0,0.714
+MLP,50,"hidden=(64,)_act=relu",1.0,0.768
+MLP,50,"hidden=(64,)_act=tanh",1.0,0.739
+MLP,50,"hidden=(32, 16)_act=relu",1.0,0.743
+MLP,50,"hidden=(32, 16)_act=tanh",1.0,0.739
+SVM,5,C=0.1_ker=linear,0.718,0.693
+SVM,5,C=0.1_ker=rbf,0.667,0.668
+SVM,5,C=1_ker=linear,0.744,0.693
+SVM,5,C=1_ker=rbf,0.744,0.668
+SVM,5,C=10_ker=linear,0.718,0.664
+SVM,5,C=10_ker=rbf,0.846,0.693
+SVM,10,C=0.1_ker=linear,0.795,0.775
+SVM,10,C=0.1_ker=rbf,0.667,0.668
+SVM,10,C=1_ker=linear,0.846,0.689
+SVM,10,C=1_ker=rbf,0.846,0.746
+SVM,10,C=10_ker=linear,0.846,0.711
+SVM,10,C=10_ker=rbf,0.949,0.768
+SVM,15,C=0.1_ker=linear,0.795,0.8
+SVM,15,C=0.1_ker=rbf,0.667,0.668
+SVM,15,C=1_ker=linear,0.872,0.689
+SVM,15,C=1_ker=rbf,0.872,0.771
+SVM,15,C=10_ker=linear,0.923,0.711
+SVM,15,C=10_ker=rbf,0.974,0.796
+SVM,20,C=0.1_ker=linear,0.821,0.775
+SVM,20,C=0.1_ker=rbf,0.667,0.668
+SVM,20,C=1_ker=linear,0.897,0.714
+SVM,20,C=1_ker=rbf,0.872,0.721
+SVM,20,C=10_ker=linear,0.974,0.768
+SVM,20,C=10_ker=rbf,1.0,0.768
+SVM,25,C=0.1_ker=linear,0.821,0.746
+SVM,25,C=0.1_ker=rbf,0.667,0.668
+SVM,25,C=1_ker=linear,0.897,0.714
+SVM,25,C=1_ker=rbf,0.872,0.746
+SVM,25,C=10_ker=linear,0.974,0.711
+SVM,25,C=10_ker=rbf,1.0,0.793
+SVM,30,C=0.1_ker=linear,0.821,0.746
+SVM,30,C=0.1_ker=rbf,0.667,0.668
+SVM,30,C=1_ker=linear,0.897,0.743
+SVM,30,C=1_ker=rbf,0.872,0.721
+SVM,30,C=10_ker=linear,0.974,0.736
+SVM,30,C=10_ker=rbf,1.0,0.793
+SVM,40,C=0.1_ker=linear,0.821,0.796
+SVM,40,C=0.1_ker=rbf,0.667,0.668
+SVM,40,C=1_ker=linear,0.923,0.714
+SVM,40,C=1_ker=rbf,0.897,0.775
+SVM,40,C=10_ker=linear,0.974,0.636
+SVM,40,C=10_ker=rbf,1.0,0.743
+SVM,50,C=0.1_ker=linear,0.821,0.718
+SVM,50,C=0.1_ker=rbf,0.667,0.668
+SVM,50,C=1_ker=linear,0.949,0.714
+SVM,50,C=1_ker=rbf,0.872,0.7
+SVM,50,C=10_ker=linear,0.974,0.661
+SVM,50,C=10_ker=rbf,0.974,0.743

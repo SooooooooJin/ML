@@ -1,0 +1,2 @@
+model,k,param,train,cv
+DT,12,"(None, 4)",0.974,0.771
